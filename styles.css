@@ -38,7 +38,7 @@ a {
     justify-content: space-between;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 40px 160px 40px;
+    padding: 80px 160px 40px;
 }
 
 .image {
@@ -76,7 +76,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 40px;
+    padding: 80px 0;
 }
 
 .box-header {
@@ -112,9 +112,10 @@ button {
     flex-direction: column;
     background-color: #E5E7EB;
     height: 200px;
-    margin: 40px 0;
+    margin: 80px 0;
     justify-content: center;
     align-items: center;
+    padding: 0 16px;
 }
 
 .quote {
@@ -127,4 +128,40 @@ button {
     font-size: 25px;
     padding-top: 16px;
     padding-left: 650px;
+}
+
+.body4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 80px 350px;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.button2 {
+    border: 2px solid #F9FAF8;
+    margin-left: 20px;
+}
+
+.bolder-text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.smaller-text {
+    font-size: 15px;
+    padding-top: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    margin-top: auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
 }
